@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acquario · Tecnologia e Dados para a Campanha Paulo Pimenta</title>
+<meta name="description" content="Proposta comercial Acquario: tecnologia, dados e dashboards para a campanha de Paulo Pimenta ao Senado pelo Rio Grande do Sul.">
+<link rel="icon" href="Logo.jpg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="water-cursor" id="waterCursor"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#hero" class="brand">
+      <img src="Logo.jpg" alt="Acquario" class="brand-logo">
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#problema" data-nav>Problema</a>
+      <a href="#solucao" data-nav>Solução</a>
+      <a href="#integracoes" data-nav>Integrações</a>
+      <a href="#territorio" data-nav>Território</a>
+      <a href="#equipe" data-nav>Equipe</a>
+      <a href="#contato" class="nav-cta" data-nav>Contato</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="tech-bg" aria-hidden="true">
+      <div class="sheen"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-top" data-reveal>
+        <span class="eyebrow">Proposta comercial</span>
+        <span class="tag-right">Campanha Paulo Pimenta · Senado</span>
+      </div>
+      <h1 data-reveal>Tecnologia e dados para a<br>campanha decidir mais rápido.</h1>
+      <p class="lede" data-reveal>
+        Construiremos as tecnologias e os dashboards da campanha de Paulo Pimenta
+        no Rio Grande do Sul, integrados às fontes que ela já usa.
+      </p>
+      <div class="hero-actions" data-reveal>
+        <a href="#contato" class="btn btn-primary" data-ripple>Agendar reunião técnica</a>
+        <a href="#solucao" class="btn btn-ghost" data-ripple>Ver a solução</a>
+      </div>
+      <div class="hero-footer">
+        <span>Acquario · Tecnologia e Inteligência de Dados</span>
+        <span>2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="section" id="problema">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">O problema</span>
+        <h2>Toda campanha produz dado.<br>Poucas conseguem usá-lo em tempo de decidir.</h2>
+      </div>
+      <div class="grid grid-3 divided">
+        <div class="card-plain" data-reveal>
+          <span class="mono-label">Redes sociais</span>
+          <p>Métricas presas no painel do Instagram e do Facebook, exportadas à mão em planilha.</p>
+        </div>
+        <div class="card-plain" data-reveal>
+          <span class="mono-label">Mídia paga</span>
+          <p>Investimento e resultado em contas separadas, sem custo por cadastro consolidado.</p>
+        </div>
+        <div class="card-plain" data-reveal>
+          <span class="mono-label">Cadastros</span>
+          <p>Formulários do site, listas de eventos e grupos de apoiadores em arquivos duplicados.</p>
+        </div>
+        <div class="card-plain" data-reveal>
+          <span class="mono-label">Território</span>
+          <p>Nenhuma leitura por município que cruze presença, eleitorado e crescimento.</p>
+        </div>
+        <div class="card-plain" data-reveal>
+          <span class="mono-label">Operação</span>
+          <p>Relatórios refeitos manualmente toda semana, sempre com dias de atraso.</p>
+        </div>
+        <div class="card-plain" data-reveal>
+          <span class="mono-label">Custo</span>
+          <p>Verba e agenda alocadas por percepção, sem saber qual canal ou região responde melhor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÃO -->
+  <section class="section alt" id="solucao">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">O que oferecemos</span>
+        <h2>Um núcleo de tecnologia e<br>dados dentro da campanha.</h2>
+      </div>
+
+      <div class="grid grid-2 bordered" data-reveal>
+        <div class="col-block">
+          <span class="mono-label">Engenharia de dados</span>
+          <p>Integração de APIs, base em PostgreSQL, modelagem das métricas e dashboards.</p>
+        </div>
+        <div class="col-block">
+          <span class="mono-label">Desenvolvimento</span>
+          <p>Site e landing pages de captação e painel próprio para os coordenadores regionais.</p>
+        </div>
+      </div>
+
+      <div class="flow-diagram" data-reveal>
+        <div class="flow-step"><span>Fontes</span></div>
+        <div class="flow-line"><i class="droplet"></i></div>
+        <div class="flow-step"><span>Base única</span></div>
+        <div class="flow-line"><i class="droplet"></i></div>
+        <div class="flow-step"><span>Dashboard</span></div>
+        <div class="flow-line"><i class="droplet"></i></div>
+        <div class="flow-step accent"><span>Decisão</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTEGRAÇÕES -->
+  <section class="section" id="integracoes">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Integrações</span>
+        <h2>Conectamos as fontes<br>que a campanha já usa.</h2>
+      </div>
+      <div class="grid grid-2 numbered">
+        <div class="num-item" data-reveal>
+          <span class="num">01</span>
+          <div><h4>Meta Graph API</h4><p>Instagram e Facebook: alcance, engajamento e crescimento de seguidores por publicação.</p></div>
+        </div>
+        <div class="num-item" data-reveal>
+          <span class="num">02</span>
+          <div><h4>Google Ads API</h4><p>Investimento, impressões e conversões por campanha, com custo por cadastro.</p></div>
+        </div>
+        <div class="num-item" data-reveal>
+          <span class="num">03</span>
+          <div><h4>Dados eleitorais do TSE</h4><p>Eleitorado e resultados por município e zona, para comparar potencial e desempenho.</p></div>
+        </div>
+        <div class="num-item" data-reveal>
+          <span class="num">04</span>
+          <div><h4>IBGE</h4><p>População, malha municipal e indicadores socioeconômicos como base territorial.</p></div>
+        </div>
+        <div class="num-item" data-reveal>
+          <span class="num">05</span>
+          <div><h4>Site e formulários</h4><p>Cadastros de apoiadores e voluntários gravados direto na base, sem exportação manual.</p></div>
+        </div>
+        <div class="num-item" data-reveal>
+          <span class="num">06</span>
+          <div><h4>Operação de campo</h4><p>Eventos, presença e registros das equipes regionais lançados no CRM.</p></div>
+        </div>
+      </div>
+      <p class="footnote" data-reveal>Todo acesso é feito por API oficial, com credenciais da própria campanha e tratamento de dados pessoais conforme a LGPD.</p>
+    </div>
+  </section>
+
+  <!-- ARQUITETURA -->
+  <section class="section alt" id="arquitetura">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Arquitetura</span>
+        <h2>O caminho do dado, da API ao dashboard.</h2>
+      </div>
+      <div class="pipeline" data-reveal>
+        <div class="pipe-line"><span class="pipe-flow"></span></div>
+        <div class="grid grid-4 pipeline-cards">
+          <div class="card-box">
+            <span class="mono-label">Coleta</span>
+            <h4>Rotinas em Python</h4>
+            <p>Extrações agendadas nas APIs, com registro de erro e nova tentativa.</p>
+          </div>
+          <div class="card-box">
+            <span class="mono-label">Armazenamento</span>
+            <h4>Banco de dados</h4>
+            <p>Base única, versionada, com histórico dia a dia e backup automático.</p>
+          </div>
+          <div class="card-box">
+            <span class="mono-label">Modelagem</span>
+            <h4>Métricas padronizadas</h4>
+            <p>Uma definição por indicador, para todo relatório falar a mesma língua.</p>
+          </div>
+          <div class="card-box">
+            <span class="mono-label">Visualização</span>
+            <h4>Dashboards</h4>
+            <p>Painéis por perfil de acesso, atualizados sem trabalho manual.</p>
+          </div>
+        </div>
+      </div>
+      <p class="footnote" data-reveal>A camada de coleta é isolada da visualização: mudar de ferramenta de BI não exige refazer a integração.</p>
+    </div>
+  </section>
+
+  <!-- INDICADORES -->
+  <section class="section" id="indicadores">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Indicadores</span>
+        <h2>O que a coordenação<br>passa a ver todos os dias.</h2>
+        <span class="tag-right">Valores a partir da 1ª carga</span>
+      </div>
+      <div class="grid grid-2 divided-rows">
+        <div class="metric" data-reveal><h4>Cadastros por dia e por origem</h4><p>Quanto cada canal traz de apoiador novo, orgânico e pago.</p></div>
+        <div class="metric" data-reveal><h4>Custo por cadastro</h4><p>Investimento em mídia dividido pelo resultado que ele gerou.</p></div>
+        <div class="metric" data-reveal><h4>Alcance e engajamento por publicação</h4><p>Qual conteúdo sustenta crescimento, não só o que teve pico isolado.</p></div>
+        <div class="metric" data-reveal><h4>Cobertura de municípios</h4><p>Onde a campanha já tem base e onde ainda não chegou.</p></div>
+        <div class="metric" data-reveal><h4>Penetração sobre o eleitorado</h4><p>Apoiadores cadastrados frente ao eleitorado registrado no TSE.</p></div>
+        <div class="metric" data-reveal><h4>Ritmo de crescimento por região</h4><p>Variação semanal, para separar avanço real de oscilação.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERRITÓRIO -->
+  <section class="section alt" id="territorio">
+    <div class="container grid grid-2-uneven">
+      <div data-reveal>
+        <span class="eyebrow">Inteligência territorial</span>
+        <h2>O Rio Grande do Sul,<br>município por município.</h2>
+        <ol class="num-list">
+          <li><span class="num">01</span>Cadastros geocodificados por CEP e município</li>
+          <li><span class="num">02</span>Malha territorial e população do IBGE</li>
+          <li><span class="num">03</span>Eleitorado e histórico de votação do TSE</li>
+          <li><span class="num">04</span>Agenda de eventos e presença das equipes</li>
+        </ol>
+      </div>
+      <div class="side-box" data-reveal>
+        <span class="mono-label">Decisões que isso apoia</span>
+        <p>Onde colocar a próxima agenda do candidato, onde reforçar mídia e onde há eleitorado relevante com pouca presença da campanha.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESENVOLVIMENTO -->
+  <section class="section" id="desenvolvimento">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Desenvolvimento</span>
+        <h2>Os sistemas que construímos<br>para a campanha.</h2>
+      </div>
+      <div class="grid grid-3" data-reveal>
+        <div class="card-box">
+          <h4>Site e landing pages</h4>
+          <p>Páginas de captação rápidas, com formulários gravando direto na base e origem de tráfego identificada.</p>
+        </div>
+        <div class="card-box">
+          <h4>Dashboards internos</h4>
+          <p>Painéis por área, atualizados automaticamente, com o mesmo indicador para todo mundo.</p>
+        </div>
+        <div class="card-box">
+          <h4>Painel dos coordenadores regionais</h4>
+          <p>Cada coordenador vê a própria região, lança evento e acompanha meta sem depender do escritório central.</p>
+        </div>
+      </div>
+      <div class="grid grid-3 meta-row" data-reveal>
+        <div><span class="mono-label">Stack</span><p>Python · Banco de Dados · front-end web · BI</p></div>
+        <div><span class="mono-label">Time dedicado</span><p>1 desenvolvedor sênior · 1 analista de dados</p></div>
+        <div><span class="mono-label">Propriedade</span><p>Código, base e credenciais ficam com a campanha</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CRONOGRAMA -->
+  <section class="section alt" id="cronograma">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Proposta de implantação</span>
+        <h2>No primeiro mês, do site<br>ao primeiro dashboard.</h2>
+      </div>
+      <div class="timeline" data-reveal>
+        <div class="timeline-step">
+          <span class="mono-label">Semanas 1–2</span>
+          <h4>Site e captação no ar</h4>
+          <p>Páginas publicadas, formulários integrados à base e estrutura de dados definida.</p>
+        </div>
+        <div class="timeline-step">
+          <span class="mono-label">Semanas 3–4</span>
+          <h4>Integrações e dashboards</h4>
+          <p>Meta, Google Ads, TSE e IBGE conectados, primeiros painéis entregues à coordenação.</p>
+        </div>
+        <div class="timeline-step muted">
+          <span class="mono-label">Acompanhamento mensal</span>
+          <h4>Operação e evolução</h4>
+          <p>Monitoramento das rotinas e novos painéis.</p>
+        </div>
+      </div>
+      <p class="footnote" data-reveal>Contratação por etapa ou pacote completo, com escopo e investimento definidos em proposta específica.</p>
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="section" id="equipe">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Equipe</span>
+        <h2>Quem constrói e sustenta a operação.</h2>
+      </div>
+      <div class="grid grid-2 team">
+        <article class="person-card" data-reveal>
+          <span class="mono-label">Sócio · Dados</span>
+          <h3>Enzo Souto</h3>
+          <p class="person-role">Analista de Dados focado em transformar dados brutos em decisão — dashboards, integrações e automação.</p>
+          <ol class="num-list">
+            <li><span class="num">01</span><div><strong>SECOM · Presidência da República</strong><span>Dez 2024 – Mar 2026 — dashboards, integração de APIs e automação de análises sobre bases governamentais.</span></div></li>
+            <li><span class="num">02</span><div><strong>BRB Card</strong><span>Set 2022 – Set 2024 — atuação com dados e testes de API, base para a maestria posterior em dashboards.</span></div></li>
+            <li><span class="num">03</span><div><strong>Ciência da Computação · UniCEUB</strong><span>Formação com foco em desenvolvimento e análise de dados.</span></div></li>
+          </ol>
+          <div class="person-footer">
+            <div><span class="mono-label">Ferramentas</span><p>SQL · Python · Databricks</p></div>
+            <div><span class="mono-label">Idiomas</span><p>Português · Inglês (C1) · Espanhol</p></div>
+          </div>
+        </article>
+
+        <article class="person-card" data-reveal>
+          <span class="mono-label">Sócio · Desenvolvimento</span>
+          <h3>Emerson Ribeiro</h3>
+          <p class="person-role">Engenheiro de Software Sênior e empreendedor tecnológico, com mais de 6 anos de experiência em soluções de alto impacto.</p>
+          <ol class="num-list">
+            <li><span class="num">01</span><div><strong>Warehouse Tecnologia</strong><span>Sócio-administrador de fábrica de software atuante no mercado.</span></div></li>
+            <li><span class="num">02</span><div><strong>Risilva &amp; Acquario</strong><span>Sócio-administrador, unindo expertise técnica a visão estratégica de negócios.</span></div></li>
+            <li><span class="num">03</span><div><strong>Ciclo completo de software</strong><span>Do levantamento de requisitos à infraestrutura e DevOps (Docker, Kubernetes).</span></div></li>
+            <li><span class="num">04</span><div><strong>Cases entregues</strong><span>Brasfort e Sistema S de Educação, com arquiteturas escaláveis.</span></div></li>
+          </ol>
+          <div class="person-footer">
+            <div><span class="mono-label">Stack</span><p>Go · Python · C/C++ · JS · TS</p></div>
+            <div><span class="mono-label">Infra</span><p>Docker · Kubernetes</p></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTATO -->
+  <section class="section cta-section" id="contato">
+    <div class="bubbles bubbles-alt" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="container">
+      <span class="eyebrow" data-reveal>Próximos passos</span>
+      <h2 data-reveal>A campanha já produz os dados.<br>Podemos começar pela estrutura que os transforma em decisão.</h2>
+      <div class="grid grid-2 next-steps" data-reveal>
+        <div><span class="num">01</span>Reunião técnica com a coordenação da campanha.</div>
+        <div><span class="num">02</span>Diagnóstico dos acessos e das fontes de dados existentes.</div>
+      </div>
+      <div class="contact-block" data-reveal>
+        <a href="mailto:contato@risilva.com" class="btn btn-primary" data-ripple>contato@risilva.com</a>
+        <a href="https://wa.me/5561981007329?text=Vim%20pela%20Acquario%2C%20podemos%20conversar%3F" target="_blank" rel="noopener" class="btn btn-ghost" data-ripple>(61) 98100-7329</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="Logo.jpg" alt="Acquario" class="footer-logo">
+    <div class="footer-people">
+      <span><span class="mono-label">Sócio</span> Enzo Souto</span>
+      <span><span class="mono-label">Sócio</span> Emerson Ribeiro</span>
+    </div>
+    <span class="footer-year">Acquario · Tecnologia e Inteligência de Dados · 2026</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
